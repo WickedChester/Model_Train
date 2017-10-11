@@ -1,0 +1,79 @@
+project Gold is
+
+   type Target_Type is
+      ("Windows", "MaRTE", "Linux");
+   Target : Target_Type := external ("Target", "Linux");
+
+   case Target is
+
+      when "Windows" =>
+         for Source_Dirs use ("./**");
+         for Source_Files use ("adc.adb", "adc.ads", "blocks.adb", "blocks.ads", "bounded_queue.adb", "bounded_queue.ads", "cabs.adb", "cabs.ads", "csv_reader.adb", "csv_reader.ads", "dac.adb", "dac.ads", "dispatcher.adb", "display.adb", 
+            "display.ads", "doubletalk.adb", "doubletalk.ads", "doubletalk_test.adb", "engineers.ads", "engineers-operations.adb", "engineers-operations.ads", "halls.adb", "halls.adb", "halls.ads", "halls.ads", "hand_controller.adb", 
+            "hand_controller.ads", "layout.adb", "layout.ads", "layout-search.adb", "layout-search.ads", "layout_test.adb", "locomotives.ads", "motors.adb", "motors.ads", "port_io.adb", "port_io.ads", "shared_types.ads", "test_program.adb", 
+            "test_search.adb", "trains.ads", "trains-operations.adb", "trains-operations.ads", "turnouts.adb", "turnouts.ads");
+         for Main use ("test_program.adb");
+
+      when "MaRTE" =>
+         for Source_Dirs use ("./**");
+         for Source_Files use ("adc.adb", "adc.ads", "blocks.adb", "blocks.ads", "bounded_queue.adb", "bounded_queue.ads", "cabs.adb", "cabs.ads", "csv_reader.adb", "csv_reader.ads", "dac.adb", "dac.ads", "dispatcher.adb", "display.adb", 
+            "display.ads", "doubletalk.adb", "doubletalk.ads", "doubletalk_test.adb", "engineers.ads", "engineers-operations.adb", "engineers-operations.ads", "halls.adb", "halls.adb", "halls.ads", "halls.ads", "hand_controller.adb", 
+            "hand_controller.ads", "layout.adb", "layout.ads", "layout-search.adb", "layout-search.ads", "layout_test.adb", "locomotives.ads", "motors.adb", "motors.ads", "port_io.adb", "port_io.ads", "shared_types.ads", "test_program.adb", 
+            "test_search.adb", "trains.ads", "trains-operations.adb", "trains-operations.ads", "turnouts.adb", "turnouts.ads");
+         for Main use ("test_program.adb");
+
+      when "Linux" =>
+         for Source_Dirs use ("./**");
+         for Source_Files use ("adc.adb", "adc.ads", "blocks.adb", "blocks.ads", "bounded_queue.adb", "bounded_queue.ads", "cabs.adb", "cabs.ads", "csv_reader.adb", "csv_reader.ads", "dac.adb", "dac.ads", "dispatcher.adb", "display.adb", 
+            "display.ads", "doubletalk.adb", "doubletalk.ads", "doubletalk_test.adb", "engineers.ads", "engineers-operations.adb", "engineers-operations.ads", "halls.adb", "halls.adb", "halls.ads", "halls.ads", "hand_controller.adb", 
+            "hand_controller.ads", "layout.adb", "layout.ads", "layout-search.adb", "layout-search.ads", "layout_test.adb", "locomotives.ads", "motors.adb", "motors.ads", "port_io.adb", "port_io.ads", "shared_types.ads", "test_program.adb", 
+            "test_search.adb", "trains.ads", "trains-operations.adb", "trains-operations.ads", "turnouts.adb", "turnouts.ads");
+         for Main use ("test_program.adb");
+   end case;
+
+   package Ide is
+
+      case Target is
+
+         when "Windows" =>
+            for Vcs_Kind use "Git";
+            for Vcs_Repository_Root use "C:/Users/shane/Documents/GitHub/Train-Lab";
+
+         when "MaRTE" =>
+            for Compiler_Command ("ada") use "mgnatmake";
+
+         when "Linux" =>
+
+      end case;
+   end Ide;
+
+   package Builder is
+
+      case Target is
+
+         when "Windows" =>
+
+         when "MaRTE" =>
+            for Default_Switches ("ada") use ("-g", "-C", "-x", "-o", "build/mprogram");
+
+         when "Linux" =>
+            for Default_Switches ("ada") use ("-g", "-C", "--RTS=native");
+      end case;
+   end Builder;
+
+   package Compiler is
+
+      case Target is
+
+         when "Windows" =>
+
+         when "MaRTE" =>
+            for Default_Switches ("ada") use ("-g");
+
+         when "Linux" =>
+            for Default_Switches ("ada") use ("-g");
+      end case;
+   end Compiler;
+
+end Gold;
+

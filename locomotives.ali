@@ -1,0 +1,46 @@
+V "GNAT Lib v2016"
+A -gnatwu
+A -g
+A -gnato
+A -fstack-check=specific
+A -gnatwa
+A -gnat05
+A -gnaty3
+A -gnatya
+A -gnatyA
+A -gnatye
+A -gnatyi
+A -gnatyk
+A -gnatyM110
+A -gnatyr
+A -gnatyt
+A -gnatyx
+A -gnatwc
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwk
+A -gnatwm
+A -gnatwr
+A -gnatwu
+A -gnatww
+A -g
+P ZX
+
+RN
+RV SPARK_05
+
+U locomotives%s		locomotives.ads		7a723933 NE OO PU PK
+
+D locomotives.ads	20161108202256 7a723933 locomotives%s
+D system.ads		20160516092930 2da59038 system%s
+X 1 locomotives.ads
+4K9*Locomotives 6r17 32l5 32e16
+9A12*Loco_String{string}<integer> 14r25
+10I12*Percent{integer} 15r25
+12R9*Loco_Rec 16e17 20r52
+14a10*Name{9A12}
+15i10*Min_Throttle{10I12}
+20A9*Loco_Array(12R9)<integer> 21r31
+21a4*Available_Locos{20A9}
+

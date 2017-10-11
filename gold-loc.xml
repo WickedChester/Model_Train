@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\yoga\Documents\GitHub\Train-Lab\gold.gpr</vfs_project>
+      <vfs_file>C:\Users\yoga\Documents\GitHub\Train-Lab\Turnouts\turnouts.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 9" >
+      <vfs_project>C:\Users\yoga\Documents\GitHub\Train-Lab\gold.gpr</vfs_project>
+      <vfs_file>C:\Users\yoga\Documents\GitHub\Train-Lab\test_program.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\yoga\Documents\GitHub\Train-Lab\gold.gpr</vfs_project>
+      <vfs_file>C:\Users\yoga\Documents\GitHub\Train-Lab\dispatcher.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\yoga\Documents\GitHub\Train-Lab\gold.gpr</vfs_project>
+      <vfs_file>C:\Users\yoga\Documents\GitHub\Train-Lab\Turnouts\turnouts.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\yoga\Documents\GitHub\Train-Lab\Cabs\cabs.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\yoga\Documents\GitHub\Train-Lab\Trains\trains-operations.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 10" line=" 95" >
+      <vfs_project />
+      <vfs_file>C:\Users\yoga\Documents\GitHub\Train-Lab\Trains\trains-operations.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\yoga\Documents\GitHub\Train-Lab\Trains\trains-operations.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 38" line=" 23" >
+      <vfs_project />
+      <vfs_file>C:\Users\yoga\Documents\GitHub\Train-Lab\Trains\trains-operations.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 34" >
+      <vfs_project />
+      <vfs_file>C:\Users\yoga\Documents\GitHub\Train-Lab\Trains\trains.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 105" >
+      <vfs_project />
+      <vfs_file>C:\Users\yoga\Documents\GitHub\Train-Lab\Trains\trains-operations.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 7" >
+      <vfs_project />
+      <vfs_file>C:\Users\yoga\Documents\GitHub\Train-Lab\Trains\trains-operations.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 35" line=" 58" >
+      <vfs_project />
+      <vfs_file>C:\Users\yoga\Documents\GitHub\Train-Lab\Trains\trains-operations.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 25" >
+      <vfs_project>C:\Users\yoga\Documents\GitHub\Train-Lab\gold.gpr</vfs_project>
+      <vfs_file>C:\Users\yoga\Documents\GitHub\Train-Lab\Layout\layout-search.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 35" line=" 58" >
+      <vfs_project />
+      <vfs_file>C:\Users\yoga\Documents\GitHub\Train-Lab\Trains\trains-operations.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 41" line=" 59" >
+      <vfs_project />
+      <vfs_file>C:\Users\yoga\Documents\GitHub\Train-Lab\Trains\trains-operations.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 35" line=" 58" >
+      <vfs_project />
+      <vfs_file>C:\Users\yoga\Documents\GitHub\Train-Lab\Trains\trains-operations.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 41" line=" 59" >
+      <vfs_project />
+      <vfs_file>C:\Users\yoga\Documents\GitHub\Train-Lab\Trains\trains-operations.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 1" >
+      <vfs_project>C:\Users\yoga\Documents\GitHub\Train-Lab\gold.gpr</vfs_project>
+      <vfs_file>C:\Users\yoga\Documents\GitHub\Train-Lab\test_program.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\yoga\Documents\GitHub\Train-Lab\gold.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 1" >
+      <vfs_project>C:\Users\yoga\Documents\GitHub\Train-Lab\gold.gpr</vfs_project>
+      <vfs_file>C:\Users\yoga\Documents\GitHub\Train-Lab\test_program.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\yoga\Documents\GitHub\Train-Lab\gold.gpr</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 1" >
+      <vfs_project>C:\Users\yoga\Documents\GitHub\Train-Lab\gold.gpr</vfs_project>
+      <vfs_file>C:\Users\yoga\Documents\GitHub\Train-Lab\test_program.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 9" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\yoga\Documents\GitHub\Train-Lab\gold.gpr</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
